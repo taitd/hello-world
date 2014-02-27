@@ -1,1 +1,4 @@
 image: oraclejdk7
+
+mvn install -q -DskipTests=true
+mvn test
